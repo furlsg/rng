@@ -1,0 +1,223 @@
+:root {
+  --wide-width: 1000px;
+  --narrow-width: 600px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ddd;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* ================================ wrap ====================================== */
+.wrap {
+  width: var(--wide-width);
+  min-height: 100vh;
+  background-color: #cbc;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+section {
+  width: 90%;
+}
+
+/* ================================ header ====================================== */
+#header {
+  background-color: transparent;
+  font-size: 68px;
+}
+
+#header .title {
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 25px;
+  margin: 20px 0 5px;
+  font-size: 68px;
+}
+
+/* ================================ intro ====================================== */
+#intro {
+  background-color: transparent;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#intro img {
+  max-height: 500px;
+}
+
+#intro .h1 {
+  font-size: 42px;
+  color: red;
+  margin-right: 15px;
+}
+#intro .h2 {
+  font-size: 28px;
+  color: blue;
+}
+
+#intro .h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+#intro .h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#intro .img_wrap {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#intro .img-column {
+  display: flex;
+  flex-direction: column;
+}
+#intro .img_wrap img {
+  width: 300px;
+  clip-path: ellipse(30% 40% at 65% 50%);
+  transform: translateX(-100px);
+}
+
+#intro {
+  margin: 60px 0px;
+}
+
+#intro ol {
+  line-height: 25px;
+}
+
+
+#intro .intro_area3 {
+  margin: 60px 0px 10px;
+}
+
+#intro .intro_area3 ol {
+  line-height: 25px;
+}
+
+
+#intro ol {
+  margin-left: 10px;
+}
+
+#intro li {
+  margin-bottom: 25px;
+}
+
+
+/* ================================ schedule ====================================== */
+#schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+}
+
+#schedule .title {
+  font-size: 36px;
+  font-weight: bold;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* table 설정 */
+#schedule table {
+  border-collapse: collapse;
+  margin: 10px 10px;
+  height: 140px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+#schedule th, td {
+  border: 1px solid darkslateblue;
+  padding: 12px 0;
+}
+
+#schedule th {
+  background-color: green;
+  color: white;
+}
+
+#schedule1 {
+  width: 100%;
+}
+
+#schedule1 table {
+  margin: 0 auto;      
+  width: 80%;
+}
+
+
+#schedule1 .title {
+  margin-bottom: 55px;
+}
+
+#schedule2 table_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#schedule2 table {
+  width: 36%;      
+}
+
+
+#schedule2 .info {
+  white-space: normal;
+  overflow: hidden;
+}
+
+
+
+/* ================================ boast ====================================== */
+#boast {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+  background-color: transparent;
+  width: 70%;
+}
+
+
+#boast h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#boast h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+#boast h3 {
+  color: rgb(82, 19, 47);
+  padding: 50px;
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+}
+#boast p {
+  font-size: 18px;
+  padding-left: 20px;
+}
